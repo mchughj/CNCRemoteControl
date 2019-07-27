@@ -4,7 +4,7 @@
 // serial commands and turn them into keyboard commands.
 //
 // You only need to get the IRRemote library for this via:
-// C:\Users\mchughj\Documents\Arduino\libraries>git clone https://github.com/shirriff/Arduino-IRremote.git IRremote
+// ~\Documents\Arduino\libraries> git clone https://github.com/shirriff/Arduino-IRremote.git IRremote
 
 #define DEBUG_OUTPUT
 
@@ -43,7 +43,7 @@ void setup()
 #ifdef DEBUG_OUTPUT
   Serial.println( "Done with initialize" );
 #endif
-  tone( SPEAKER_PIN, frequency( 'e' ), MEDIUM_DURATION);
+  tone(SPEAKER_PIN, frequency( 'e' ), MEDIUM_DURATION);
 }
 
 void loop() {
