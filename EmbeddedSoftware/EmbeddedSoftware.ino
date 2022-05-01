@@ -48,7 +48,7 @@ void setup()
 #ifdef DEBUG_OUTPUT
   Serial.println( "Done with initialize" );
 #endif
-  tone( SPEAKER_PIN, frequency( 'e' ), MEDIUM_DURATION);
+  tone(SPEAKER_PIN, frequency( 'e' ), MEDIUM_DURATION);
 }
 
 void loop() {
