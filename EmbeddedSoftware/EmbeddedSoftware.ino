@@ -5,6 +5,11 @@
 //
 // You only need to get the IRRemote library for this via:
 // C:\Users\mchughj\Documents\Arduino\libraries>git clone https://github.com/shirriff/Arduino-IRremote.git IRremote
+//
+// This program requires a corresponding program on the host computer to read the serial messages and change them
+// into actions taken.  I had hoped to use a trinket as a keyboard (via TinketKeyboard library) but the combination
+// of the keyboard and IR library did not work together.  I didn't fully debug why but clearly it was an 
+// incompatability with the IR library and the TrinketKeyboard library as both by themselves worked fine.
 
 #define DEBUG_OUTPUT
 
