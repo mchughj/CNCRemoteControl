@@ -70,6 +70,6 @@ if __name__ == "__main__":
    if len(sys.argv) > 2:
      print("Too many arguments.  Just pass the port number or leave it blank")
    elif len(sys.argv) == 2:
-     main(f'COM{sys.argv[1]})
+     main(f'COM{sys.argv[1]}')
    else:
      main('COM3')
